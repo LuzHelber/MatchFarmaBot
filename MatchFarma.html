@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchFarmaBot</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        body {
+            font-size: 16px; /* Tamanho de fonte padrão */
+            background-color: black;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .explanation {
+            padding: 30px;
+            text-align: center;
+            font-size:60px;
+        }
+
+        .explanation h1 {
+            font-size: 60px;
+            color: white;
+        }
+
+        .explanation p {
+            font-size: 60px;
+        }
+
+        .apresentacao__conteudo {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 50px;
+        }
+
+        .apresentacao__links {
+            margin-top: 20px;
+        }
+
+        .apresentacao__links__subtitulo {
+            font-size: 24px;
+        }
+
+        .apresentacao__links__navegacao {
+            font-size: 20px;
+            margin-right: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .rodape {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .cabecalho {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1> Formação Match! IBM -  <strong class="titulo-destaque"> MASTERTECH</strong></h1>
+    </div>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <p class="apresentacao__conteudo__texto">Projeto 2: Implementação de Chatbot para Atendimento Automatizado.</p> <p>Desenvolvido um chatbot para o atendimento automatizado de clientes de uma farmácia fictícia!</p>
+            
+            
+        </section>
+  
+    </main>
+    
+    <!-- Adicione o código do widget de chat aqui -->
+    <script src="https://cdn.boteria.com.br/webchat.js"></script>
+    
+    <script>
+        window.renderBotWidget(
+        '64e9fe9cc08d730012f91429',
+        { // Objeto com variáveis e configurações de layout do webchat.
+          var_title: "var_value", // Variável da sessão.
+          layout: { //Caso exista o objeto layout, este será utilizado para definir configurações do webchat.
+            // 'bot-name': 'Teste título', // Nome do bot.
+            // 'bot-bg-color': '278222', // Cor de fundo da mensagem do bot.
+            // 'bot-text-color': 'fff', // Cor do texto da mensagem do bot.
+            // 'user-bg-color': '6a5837', // Cor de fundo da mensagem do usuário e do título do chat.
+            // 'user-text-color': 'fff0f0', // Cor do texto da mensagem do usuário e do título do chat.
+          }
+        },
+        false, // Define se é para reiniciar a sessão caso os parâmetros sejam alterados.
+        false, // Define um id customizado para o elemento que vai renderizar o webchat no html.
+        );
+      </script>
+
+    <footer class="rodape">
+        <p>Desenvolvido por HelberLuz</p>
+    </footer>
+</body>
+
+</html>
